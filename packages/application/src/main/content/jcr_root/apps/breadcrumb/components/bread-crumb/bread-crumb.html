@@ -1,0 +1,13 @@
+<div data-sly-test="${wcmmode.edit}" class="cq-placeholder" data-emptytext="Edit Bread Crumb"></div>
+<nav class="bread-crumb">
+    <div class="row">
+        <div class="large-12 column" data-sly-use.provider="BreadCrumbDataProvider">
+            <sly class="bread-crumb-item" data-sly-list="${provider.breadCrumbItems}">
+                <span class="${itemList.last ? 'active':''}">
+                    <a href="${item.path @extension='html'}">${item.title}</a>
+                    <sly data-sly-test="${!itemList.last}">>></sly>
+                </span>
+            </sly>
+        </div>
+    </div>
+</nav>
