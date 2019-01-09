@@ -14,7 +14,7 @@
     <artifactId>packages</artifactId>
     <packaging>pom</packaging>
 
-    <name>BreadCrumb :: Packages</name>
+    <name>Bread Crumb :: Packages</name>
 
     <modules>
         <module>application</module>

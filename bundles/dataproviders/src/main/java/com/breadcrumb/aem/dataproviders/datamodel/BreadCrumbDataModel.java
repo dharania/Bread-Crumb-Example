@@ -6,18 +6,18 @@ package com.breadcrumb.aem.dataproviders.datamodel;
  * This is a simple class to hold bread crumb data (page path and title)
  *
  * Author: Dharani A
- * Date: 7/16/2018
+ * Date: 1/8/2019
  *
  */
 
-public class BreadCrumbDataMOdel{
+public class BreadCrumbDataModel{
 
     private String title;
     private String path;
 
-    public BreadCrumbDataMOdel (title, path) {
-        title = title;
-        path = path;
+    public BreadCrumbDataModel (String title, String path) {
+        this.title = title;
+        this.path = path;
     }
 
     //Accessors

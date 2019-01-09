@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.breaadcrumb.aem.packages</groupId>
+        <groupId>com.breadcrumb.aem.packages</groupId>
         <artifactId>packages</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -27,6 +27,9 @@
                     <filters>
                         <filter>
                             <root>/apps/breadcrumb/components</root>
+                        </filter>
+                        <filter>
+                            <root>/etc/clientlibs/breadcrumb</root>
                         </filter>
                     </filters>
 

@@ -14,7 +14,7 @@
     <artifactId>bundles</artifactId>
     <packaging>pom</packaging>
 
-    <name>Credit One Bank :: Bundles</name>
+    <name>Bread Crumb :: Bundles</name>
 
     <modules>
         <module>dataproviders</module>

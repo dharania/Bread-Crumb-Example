@@ -1,7 +1,10 @@
 <div data-sly-test="${wcmmode.edit}" class="cq-placeholder" data-emptytext="Edit Bread Crumb"></div>
+<!-- including clientlib here for quick access, though the preferred way to include clientlibs is on template level -->
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"></sly>
+<sly data-sly-call="${clientlib.css @ categories='component.breadcrumb'}"></sly>
 <nav class="bread-crumb">
     <div class="row">
-        <div class="large-12 column" data-sly-use.provider="BreadCrumbDataProvider">
+        <div class="large-12 column" data-sly-use.provider="com.breadcrumb.aem.dataproviders.BreadCrumbDataProvider">
             <sly class="bread-crumb-item" data-sly-list="${provider.breadCrumbItems}">
                 <span class="${itemList.last ? 'active':''}">
                     <a href="${item.path @extension='html'}">${item.title}</a>

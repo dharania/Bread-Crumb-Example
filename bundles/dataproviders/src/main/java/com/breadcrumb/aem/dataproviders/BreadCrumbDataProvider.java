@@ -19,7 +19,7 @@ import java.util.List;
  * included in the list
  *
  * Author: Dharani A
- * Date: 7/16/2018
+ * Date: 1/8/2019
  *
  */
 
@@ -29,7 +29,7 @@ public class BreadCrumbDataProvider extends WCMUsePojo{
     private static final String EXCLUDED_PAGES_PROPERTY_NAME = "excludedPages";
     private static final String EXCLUDED_PAGE_PROPERTY_NAME = "excludedPage";
 
-    private Logger logger = LoggerFactory.getLogger(CardDesignDataProvider.class);
+    private Logger logger = LoggerFactory.getLogger(BreadCrumbDataProvider.class);
 
     // Private member variables
     private List breadCrumbItems;
